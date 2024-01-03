@@ -20,7 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-reveal": "^1.2.2",
+    "react-awesome-reveal": "",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "typeface-poppins": "^1.1.13"
