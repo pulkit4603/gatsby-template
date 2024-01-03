@@ -1,5 +1,4 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import Slider from "react-slick"
 import Angular from "../../images/angular.png"
 import Aws from "../../images/aws.png"
@@ -33,24 +32,24 @@ const TechSection = () => {
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
 
   return (

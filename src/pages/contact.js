@@ -1,10 +1,9 @@
 import React, { useState } from "react"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 import Layout from "../components/layout"
 import Input from "../components/Atoms/input"
 import Button from "../components/Atoms/button"
 import CNTower from "../images/cn-tower.png"
-
 
 const Contact = () => {
   const [name, setName] = useState("")
@@ -104,10 +103,7 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-1/4 overflow-hidden rounded-xl m-5 xxs:hidden sm:block">
-            <img
-              className="object-cover h-full w-full"
-              src={CNTower}
-            ></img>
+            <img className="object-cover h-full w-full" src={CNTower}></img>
           </div>
         </div>
       </Fade>

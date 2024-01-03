@@ -1,5 +1,5 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 import Customer from "../../images/customer.svg"
 import Innovation from "../../images/innovation.svg"
 import Scalability from "../../images/scalability.svg"
@@ -31,8 +31,10 @@ const FeatureSection = () => {
           <div className="mt-12 mb-32 px-0 mx-0 grid grid-cols-1 xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-3 gap-5">
             <div className="bg-lightblack p-8 rounded-xl service-card ">
               <div className="flex items-center justify-start mb-2">
-              <img src={Development} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle">Web / Mobile Development</h1>
+                <img src={Development} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle">
+                  Web / Mobile Development
+                </h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Precision-engineered software for your industry's needs.
@@ -40,18 +42,20 @@ const FeatureSection = () => {
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
-              <img src={Ai} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle ">Artificial Intelligence</h1>
+                <img src={Ai} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle ">
+                  Artificial Intelligence
+                </h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
-                Empowering Tomorrow, Revolutionizing Business with Cutting-Edge AI
-                Solutions
+                Empowering Tomorrow, Revolutionizing Business with Cutting-Edge
+                AI Solutions
               </p>
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
-              <img src={Vr} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle ">AR & VR</h1>
+                <img src={Vr} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle ">AR & VR</h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Beyond Reality, Transforming Experiences with Advanced AR & VR
@@ -60,8 +64,10 @@ const FeatureSection = () => {
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
-              <img src={Team} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle ">Team Augmentation</h1>
+                <img src={Team} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle ">
+                  Team Augmentation
+                </h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Our expert developers seamlessly integrate with your operations,
@@ -70,8 +76,10 @@ const FeatureSection = () => {
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
-              <img src={Auditing} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle ">Audit & IT Consulting</h1>
+                <img src={Auditing} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle ">
+                  Audit & IT Consulting
+                </h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Targeted project analysis for informed, strategic IT decisions.
@@ -79,8 +87,10 @@ const FeatureSection = () => {
             </div>
             <div className="bg-lightblack p-8 rounded-xl service-card">
               <div className="flex items-center justify-start mb-2">
-              <img src={Management} className="w-12 mr-3"></img>
-              <h1 className="text-white text-2xl align-middle ">Digital Branding</h1>
+                <img src={Management} className="w-12 mr-3"></img>
+                <h1 className="text-white text-2xl align-middle ">
+                  Digital Branding
+                </h1>
               </div>
               <p className="mt-5 text-white opacity-50 text-lg">
                 Intuitive designs that engage and delight users.
@@ -122,9 +132,18 @@ const FeatureSection = () => {
           <div className="flex justify-between items-center mt-12">
             <div className="grid m-12 md:m-0 md:grid-cols-2 gap-12 lg:gap-60">
               <div className="md:p-8 rounded-lg service-card group hover:transform-none button">
-                <img src={YoutubeAnalyzer} alt="AI-based enterprise software interface for a retail dashboard" className="w-auto rounded-lg mb-4" />
-                <h3 className="text-gray-300 text-3xl font-semibold mb-4 group-hover:text-gray-200 transition-colors duration-100">ChatGPT powered Chrome Extension</h3>
-                <p className="text-gray-400 text-lg group-hover:text-gray-300 transition-colors duration-100">Chrome extension enabled by ChatGPT AI to deliver users instant content insights.</p>
+                <img
+                  src={YoutubeAnalyzer}
+                  alt="AI-based enterprise software interface for a retail dashboard"
+                  className="w-auto rounded-lg mb-4"
+                />
+                <h3 className="text-gray-300 text-3xl font-semibold mb-4 group-hover:text-gray-200 transition-colors duration-100">
+                  ChatGPT powered Chrome Extension
+                </h3>
+                <p className="text-gray-400 text-lg group-hover:text-gray-300 transition-colors duration-100">
+                  Chrome extension enabled by ChatGPT AI to deliver users
+                  instant content insights.
+                </p>
               </div>
             </div>
           </div>

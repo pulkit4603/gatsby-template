@@ -1,5 +1,5 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 
 const AboutMore = () => {
   return (
@@ -22,11 +22,10 @@ const AboutMore = () => {
       </Fade>
       <div className="grid grid-cols-4">
         <p className="col-start-3 col-end-5 text-white text-3xl leading-normal mt-10 xxs:col-start-1 sm:col-start-3 xxs:text-sm xs:text-lg sm:text-3xl">
-        At Techfi, we're more than IT specialists;
-        we're pioneers of future-ready solutions. 
-        Our tailored services are designed to scale, innovate, 
-        and drive your business towards unprecedented success. 
-        With Techfi, experience the power of progress.
+          At Techfi, we're more than IT specialists; we're pioneers of
+          future-ready solutions. Our tailored services are designed to scale,
+          innovate, and drive your business towards unprecedented success. With
+          Techfi, experience the power of progress.
         </p>
       </div>
     </div>

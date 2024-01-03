@@ -1,5 +1,5 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
+import { Fade } from "react-awesome-reveal"
 
 const AboutHeader = () => {
   return (
@@ -11,7 +11,8 @@ const AboutHeader = () => {
         <div className="mt-5">
           <span className="text-white text-sm opacity-50">About us</span>
           <h1 className="text-white text-7xl font-poppins font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-7xl">
-            Techfi is on a mission to pioneer IT solutions for tomorrow's business challenges.
+            Techfi is on a mission to pioneer IT solutions for tomorrow's
+            business challenges.
           </h1>
         </div>
       </div>
